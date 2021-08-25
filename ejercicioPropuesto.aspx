@@ -17,13 +17,13 @@
 <body class="nuevoEstilo1">
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Ingresar datos"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Font-Size="X-Large" Text="Ingresar datos"></asp:Label>
         </div>
         <asp:Label ID="Label2" runat="server" Text="Nombre"></asp:Label>
-        <asp:TextBox ID="nombre" runat="server" style="margin-left: 33px"></asp:TextBox>
+        <asp:TextBox ID="nombre" runat="server" style="margin-left: 97px"></asp:TextBox>
         <p>
             <asp:Label ID="Label3" runat="server" Text="Apellido"></asp:Label>
-            <asp:TextBox ID="apellido" runat="server" style="margin-left: 28px"></asp:TextBox>
+            <asp:TextBox ID="apellido" runat="server" style="margin-left: 97px"></asp:TextBox>
         </p>
         <asp:Label ID="Label4" runat="server" Text="Monto prestado"></asp:Label>
         <asp:TextBox ID="monto" runat="server" style="margin-left: 28px"></asp:TextBox>
@@ -48,19 +48,25 @@
             <asp:Label ID="Label6" runat="server" Text="Meses"></asp:Label>
         </p>
         <asp:Label ID="Label7" runat="server" Text="Interes"></asp:Label>
-        <asp:TextBox ID="intereses" runat="server" style="margin-left: 22px"></asp:TextBox>
+        <asp:TextBox ID="intereses" runat="server" style="margin-left: 29px"></asp:TextBox>
         <asp:Label ID="Label8" runat="server" Text="%"></asp:Label>
         <p>
             <asp:Label ID="Label9" runat="server" Text="Seguro"></asp:Label>
-            <asp:TextBox ID="seguro" runat="server" style="margin-left: 26px"></asp:TextBox>
+            <asp:TextBox ID="seguro" runat="server" style="margin-left: 27px"></asp:TextBox>
             <asp:Label ID="Label10" runat="server" Text="%"></asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="Label11" runat="server" Text="Comision"></asp:Label>
+            <asp:TextBox ID="comision" runat="server" style="margin-left: 13px"></asp:TextBox>
+            <asp:Label ID="Label12" runat="server" Text="%"></asp:Label>
         </p>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
         <p>
-            <asp:Label ID="respuesta" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="respuesta" runat="server"></asp:Label>
         </p>
     </form>
     <p class="nuevoEstilo1">
     </p>
 </body>
 </html>
+
